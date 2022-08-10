@@ -1,0 +1,45 @@
+.home{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+    text-align: center;
+}
+
+.homeFont{
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    color: #093e26
+}
+
+@media screen and (max-width: 500px) {
+    
+    .home{
+        width: 75%;
+        top: 25%;
+    }
+
+    .homeFont{
+        font-size: medium;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    
+    .home{
+        width: 75%;
+        top: 25%;
+    }
+}
+
+.homeBar{
+    font-family: 'Quicksand', sans-serif;
+    color: #093e26
+}
+
+.btn {
+    background-color: #1EBF77;
+    font-family: 'Quicksand', sans-serif;
+    color: #093e26
+}
