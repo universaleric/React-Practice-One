@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import Nav from "../components/Nav";
 import Home from "../pages/Home";
 import Login from "../pages/Login";
+import SearchResults from "../pages/SearchResults";
 
 function App() {
   return (
@@ -12,9 +13,8 @@ function App() {
         <Nav />
         <Routes>
           <Route exact path="/" element={<Home />} />
-        
           <Route exact path="/login" element={<Login />} />
-            
+          <Route exact path="/results" element={<SearchResults />} />
         </Routes>
       </div>
     </Router>
