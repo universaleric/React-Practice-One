@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faClock } from "@fortawesome/free-regular-svg-icons";
 import { faCity, faPhone, faLink } from "@fortawesome/free-solid-svg-icons";
+import Fade from "react-reveal/Fade";
 import "./style.css";
 
 library.add(faClock, faCity, faPhone, faLink);
@@ -20,6 +21,7 @@ function SearchResults() {
       {data.features !== undefined && data.features !== null ? (
         <ul className="shelter-list list-group">
           {data.features.map((shelter) => (
+            <Fade bottom>
             <li className="shelter-item list-group-item" key={shelter.id}>
               {shelter.attributes.Name !== undefined && shelter.attributes.Name !== null ? (
               <div>
@@ -61,7 +63,7 @@ function SearchResults() {
               </div>) : (
         <></>
       )}
-            </li>
+            </li></Fade>
           ))}
         </ul>
       ) : (

@@ -18,6 +18,12 @@
     color: #093e26
 }
 
+.errMessage{
+    font-family: 'Quicksand', sans-serif;
+    color: #a30202;
+    text-align: left;
+}
+
 @media screen and (max-width: 500px) {
     
     .home{

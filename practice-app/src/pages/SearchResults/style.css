@@ -24,3 +24,10 @@ a:link, a:visited{
     padding: 10px;
     text-align: center;
 }
+
+@media screen and (max-width: 925px) {
+    
+    .shelter-container{
+        width: 100%;
+    }
+}
