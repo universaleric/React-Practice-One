@@ -1,0 +1,26 @@
+.shelter-container{
+    width: 50%;
+}
+
+.shelter-list{
+    margin: 10px;
+}
+
+.shelter-item{
+    margin: 10px;
+    padding: 25px;
+    border: none;
+    background-color: #4FE3A1;
+    font-family: 'Quicksand', sans-serif;
+    color: #093e26
+}
+
+a:link, a:visited{
+    color: #093e26;
+    text-decoration: none;
+}
+
+.shelterDescription{
+    padding: 10px;
+    text-align: center;
+}

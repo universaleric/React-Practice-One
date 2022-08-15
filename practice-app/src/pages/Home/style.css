@@ -7,6 +7,11 @@
     text-align: center;
 }
 
+.homeBackground{
+    height: 100%;
+    background-color: #4FE3A1;
+}
+
 .homeFont{
     font-family: 'Quicksand', sans-serif;
     padding: 10px;
