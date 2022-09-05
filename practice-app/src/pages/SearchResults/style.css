@@ -10,13 +10,13 @@
     margin: 10px;
     padding: 25px;
     border: none;
-    background-color: #4FE3A1;
+    background-image: linear-gradient(#c4fefc, #c4fefc, #14C9C3);
     font-family: 'Quicksand', sans-serif;
-    color: #093e26
+    color: #0c706d;
 }
 
 a:link, a:visited{
-    color: #093e26;
+    color: #0c706d;
     text-decoration: none;
 }
 

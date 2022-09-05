@@ -8,14 +8,14 @@
 }
 
 .homeBackground{
-    height: 100%;
-    background-color: #4FE3A1;
+    height: 90%;
+    background-image: linear-gradient(#c4fefc, #c4fefc, #14C9C3)
 }
 
 .homeFont{
     font-family: 'Quicksand', sans-serif;
     padding: 10px;
-    color: #093e26
+    color: #0c706d;
 }
 
 .errMessage{
@@ -46,11 +46,13 @@
 
 .homeBar{
     font-family: 'Quicksand', sans-serif;
-    color: #093e26
+    color: #0c706d;
 }
 
 .btn {
-    background-color: #1EBF77;
+    background-color: #14C9C3;
+    border-color: #14C9C3;
     font-family: 'Quicksand', sans-serif;
-    color: #093e26
+    color: #0c706d;
+    --bs-btn-hover-bg: #06918c;
 }

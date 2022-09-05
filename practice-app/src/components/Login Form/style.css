@@ -1,0 +1,13 @@
+.loginForm {
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    color: #0c706d
+}
+
+.formField {
+    padding-bottom: 10px;
+}
+
+.row{
+    --bs-gutter-x: 0;
+}
